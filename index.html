@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Kirang+Haerang&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="debug">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <Header class="container-fluid stick-top">
+    <div class="row font navhdrcolor ">
+      <div class="col p-3">
+        <nav class="navbar navbar-expand-sm">
+          <a href="#">
+            <img class="imgclass" src="https://api.iconify.design/mdi:google-podcast.svg"> <span class="font">Karra
+              Breweries</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </Header>
+  <!-- Main -->
+  <main class="container-fluid">
+    <div class="row h-100 p-4 main1stimg d-flex justify-align-center text-align-center">
+      <div class="col-6 col-sm-6 d-flex flex-column bg-light">
+        <div class="w-4">
+          <label>Less subtle Heading</label><br>
+          <input type="text" class="form-group" id="Name" placeholder="Name">
+          <input type="text" class="form-group" id="email" placeholder="Email">
+          <input type="text" class="form-group" id="Phone" placeholder="Phone">
+          <span class="input-group-addon"> </span>
+          <input type="text" class="form-group" id="Ext" placeholder="Ext" style="width: 80px">
+          <input type="text" class="form-group" id="Message" placeholder="Message" style="width: 500px">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+          <label class="custom-control-label mx-4" for="check1">By checking this box, I agree to the Lorem</label>
+          <br>
+          <button class="btn btn-danger w-25" type="submit">Submit</button>
+          <br>
+        </div>
+      </div>
+      <!-- Existing code end -->
+      <div class="col-6 p-3">
+        <div p-5>
+          <h4> Text Over Image</h4>
+          <a>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-5 navhdrcolor d-flex justify-align-center text-center order-1">
+      <div class="col-6 col-sm-6 d-flex flex-column ">
+        <div class="row">
+          <div class="col">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class></div>
+          <div class="col">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+        </div>
+      </div>
+    </div>
+    <!-- Need to make a Card and overlap starts -->
+    <div class="col-6 p-3">
+      <div p-5>
+        <h4> Text Over Image</h4>
+        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+        </a>
+      </div>
+    </div>
+    <!-- Need a card overlap ends -->
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container-fluid footercolor">
+      <div class="row p-3 d-flex justify-align-center align-items-center text-align-center">
+        <!-- p-4 justify-align-center "> -->
+        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
