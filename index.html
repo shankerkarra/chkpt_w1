@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
+<!-- <style>
   body.debug .container,
   body.debug .container-fluid {
     outline: 2px double blue;
@@ -33,9 +33,9 @@
     outline: 2px dotted forestgreen;
     outline-offset: -3px;
   }
-</style>
+</style> -->
 
-<body class="debug">
+<body class="gutter">
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -61,7 +61,7 @@
     </div>
   </Header>
   <!-- Main -->
-  <main class="container-fluid">
+  <div class="container-fluid">
     <div class="row h-100 p-4 main1stimg d-flex justify-align-center text-align-center">
       <div class="col-6 col-sm-6 d-flex flex-column bg-light">
         <div class="w-4">
@@ -71,7 +71,7 @@
           <input type="text" class="form-group" id="Phone" placeholder="Phone">
           <span class="input-group-addon"> </span>
           <input type="text" class="form-group" id="Ext" placeholder="Ext" style="width: 80px">
-          <input type="text" class="form-group" id="Message" placeholder="Message" style="width: 500px">
+          <input type="text" class="form-group" id="Message" placeholder="Message" style="width: 200px">
           <input type="checkbox" class="custom-control-input" id="customCheck1">
           <label class="custom-control-label mx-4" for="check1">By checking this box, I agree to the Lorem</label>
           <br>
@@ -96,7 +96,6 @@
           </div>
         </div>
         <div class="row">
-          <div class></div>
           <div class="col">
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
           </div>
@@ -116,33 +115,67 @@
             <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+        <div class="row">
+          <div class="col">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+          </div>
         </div>
       </div>
     </div>
     <!-- Need to make a Card and overlap starts -->
-    <div class="col-6 p-3">
-      <div p-5>
-        <h4> Text Over Image</h4>
-        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit...
-        </a>
+
+    <!-- CArD code from Getbootstrap  -->
+    <div row>
+      <div class="card-group">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="BreweryInfo">Brewery Info</h5>
+            <p class="BreweryInfo">This is a wider card with supporting text below as a natural lead-in to additional
+              content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src=".//Images/breweries.jpg" class=" card-img-top" alt="..." card-group.style.zoom='100%'>
+          <div class="card-body">
+            <h5 class="BreweryProcess">Brewery Process</h5>
+            <p class="BreweryProcess">This card has supporting text below as a natural lead-in to additional content.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="Brewing">Brewing</h5>
+            <p class="Brewing">This is a wider card with supporting text below as a natural lead-in to additional
+              content.
+              This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Need a card overlap ends -->
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="container-fluid footercolor">
-      <div class="row p-3 d-flex justify-align-center align-items-center text-align-center">
-        <!-- p-4 justify-align-center "> -->
-        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+    <div class=navhdrcolor>
+      <div class="col-6 m-4 p-3">
+        <div class="p-0">
+          <h4> Text Over Image</h4>
+          <a>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </a>
+        </div>
       </div>
     </div>
-    </div>
-  </footer>
+    </main>
+    <!-- Footer Starts here -->
+    <footer class="footer">
+      <div class="container-fluid footercolor">
+        <div class="row p-3 d-flex justify-content-center text-align-center">
+          <div class="col-sm-6">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends here -->
+  </div>
 </body>
 
 </html>
