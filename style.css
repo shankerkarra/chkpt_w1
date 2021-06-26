@@ -2,6 +2,10 @@
   outline: 1px solid red;
 } */
 
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat'); */
+
+
 body {
   min-height: 100vh;
   display: flex;
@@ -12,19 +16,30 @@ main {
   flex-grow: 1;
 }
 
+.cardsectionbackground{
+  background-color: rgb(241, 245, 241) !important;
+   display: flex;
+  flex-direction: column;
+    width: 100%;
+}
+
+/*
 .bg-main-img {
   text-shadow: 1px 1px 15px black;
   background-position: center;
   background-size: cover;
   min-height: 70vh;
-  /* Replace the image */
-  background-image: url();
+   background-image: url(); 
 }
+ */
+
 .font{
+  color: white;
   font-family: 'Jomhuria', cursive;
 font-family: 'Kirang Haerang', cursive;
 font-size:35px;
 }
+
 .imgclass{
  height:35px;
 }
@@ -42,15 +57,26 @@ font-size:35px;
 .footercolor{
   background-color:#f8f9fa;
 }
-
-
+ .centercard{
+   box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+ }
+ .card{
+ background: #fff;
+    border-radius: 3px;
+   }
+ .cardbodyfont {
+  font-family: 'Tangerine', serif;
+  font-size: 22px;
+}
 .thumbnail {
-    position: relative;
+  position: relative;
 }
 
 .caption {
-    position: absolute;
-    top: 45%;
-    left: 30;
-    width: 100%;
+  position: absolute;
+  top: 45%;
+  left: 30;
+  width: 100%;
 }
