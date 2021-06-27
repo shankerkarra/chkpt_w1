@@ -88,15 +88,18 @@ main {
 
 .virtualcard{
     background-color: #FFFFFF;
-    padding: 2px;
-     -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius:9px;
+    padding: 5px;
+    width:0em;
+     /* -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; */
+    border-radius:15px;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
     max-height: 200%;
-        margin: 0 auto; /* Added */
-        /* float:inline-end; Added */
-        margin-bottom: 10px; /* Added */
+    width: max-content;
+    z-index: 10;
+    margin: 0 auto; 
+         float:inline-end; 
+        margin-bottom: 10px;  
  
 }
 
