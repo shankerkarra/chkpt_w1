@@ -71,20 +71,36 @@
     <section class="top">
       <div class="container-fluid">
         <div class="row h-100 p-4 main1stimg d-flex justify-align-center text-align-center">
-          <div class="col-md-6 col-sm-6 d-flex flex-column bg-light">
+          <div class="card col-md-6 col-sm-6 col-xs-6 col-sm-4 col-md-4">
             <div class="form">
-              <label>Less subtle Heading</label><br>
-              <input type="text" class="form-group" id="Name" placeholder="Name">
-              <input type="text" class="form-group" id="email" placeholder="Email">
-              <input type="text" class="form-group" id="Phone" placeholder="Phone">
-              <span class="input-group-addon"> </span>
-              <input type="text" class="form-group" id="Ext" placeholder="Ext" style="width: 80px">
-              <textarea class="form-group" placeholder="Message" id="floatingTextarea"></textarea>
-              <input type="checkbox" class="custom-control-input" id="customCheck1">
-              <label class="custom-control-label mx-4" for="check1">By checking this box, I agree to the Lorem</label>
-              <br>
-              <button class="btn btn-danger w-25" type="submit">Submit</button>
-              <br>
+              <div class="form-outline mb-4">
+                <input type="Name" id="form" placeholder="Name" class="form-control" />
+              </div>
+              <div class="form-outline mb-4">
+                <input type="Email" id="form" placeholder="Email" class="form-control" />
+              </div>
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="Phone" id="form" placeholder="Phone" class="form-control" />
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="Ext" id="form" placeholder="Ext" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col d-flex justify-content-left">
+                  <div class="form-check">
+                    <!-- <input type="checkbox" id="customCheck1"> -->
+                    <label type="checkbox" id="customCheck1" class="custom-control-label mx-2" for="check1">By checking
+                      this box, I agree to the Lorem</label>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-danger justify-align-right" type="submit">Submit</button>
             </div>
           </div>
           <div col class="col-6 p-3 text-white">
@@ -96,98 +112,95 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="content">
+      <!-- </section> -->
       <div class="row p-5 navhdrcolor d-flex">
-        <div class="col-md-8 p-3 d-flex flex-column justify-align-center order-md-1">
-          <div class="row">
+        <!-- <div class="content"> -->
+        <div class="col-md-8 d-flex flex-column justify-align-center">
+          <div class="row mb-4">
             <div class="col">
               <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-4">
             <div class="col">
               <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-4">
             <div class="col">
               <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-4">
             <div class="col">
               <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-4">
             <div class="col">
-              <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+              <a>last line Lorem ipsum dolor sit amet consectet.</a>
             </div>
           </div>
         </div>
         <!-- Overlapping col Text starts here  -->
-        <div class="col-md-4 p-3 d-flex order-md-2">
-          <div class="virtualcard">
-            <div class="card card-body cardbodyfont">
-              <div class="row m-2">
-                <div class="col-4">
-                  <span class="iconify" data-icon="mdi-phone-dial" data-inline="true"></span>
-                </div>
-                <div class="col-8">
-                  <a href="tel:+123456789">Phone</a>
-                </div>
+        <div class="col-md-4 col-sm-12 d-flex flex-column">
+          <div class="virtualcard card card-body cardbodyfont">
+            <div class="row m-2">
+              <div class="col-4">
+                <span class="iconify" data-icon="mdi-phone-dial" data-inline="true"></span>
               </div>
-              <div class="row m-2">
-                <div class="col-4">
-                  <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
-                </div>
-                <div class="col-8">
-                  <a href="mailto:test@test.com">Envelope</a>
-                </div>
+              <div class="col-8">
+                <a href="tel:+123456789">Phone</a>
               </div>
-              <div class="row m-2">
-                <div class="col-4">
-                  <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
-                </div>
-                <div class="col-8">
-                  <a href="mailto:test@test.com">Facebook</a>
-                </div>
+            </div>
+            <div class="row m-2">
+              <div class="col-4">
+                <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
               </div>
-              <div class="row m-2">
-                <div class="col-4">
-                  <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
-                </div>
-                <div class="col-8">
-                  <a href="mailto:test@test.com">Pinterest</a>
-                </div>
+              <div class="col-8">
+                <a href="mailto:test@test.com">Envelope</a>
               </div>
-              <div class="row m-2">
-                <div class="col-4">
-                  <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
-                </div>
-                <div class="col-8">
-                  <a href="mailto:test@test.com">Twitter</a>
-                </div>
+            </div>
+            <div class="row m-2">
+              <div class="col-4">
+                <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
+              </div>
+              <div class="col-8">
+                <a href="mailto:test@test.com">Facebook</a>
+              </div>
+            </div>
+            <div class="row m-2">
+              <div class="col-4">
+                <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
+              </div>
+              <div class="col-8">
+                <a href="mailto:test@test.com">Pinterest</a>
+              </div>
+            </div>
+            <div class="row m-2">
+              <div class="col-4">
+                <span class="iconify" data-icon="mdi-phone-dial" data-inline="false"></span>
+              </div>
+              <div class="col-8">
+                <a href="mailto:test@test.com">Twitter</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="imageandtext">
-      <div class="row mx-auto p-4 bg-white d-flex text-align-center">
-        <div class="col-md-6 order-md-1 p-3">
-          <div class="card-img">
-            <img src="https://placeimg.com/300/350/tech">
-          </div>
+      <div class="row p-3 bg-white d-flex">
+        <!-- <div class="content"> -->
+        <div class="col">
+          <!-- <div class="row mb-4">
+            <div class="col-4 col-md-6 order-md-1 p-3"> -->
+          <!-- <div class="card-img"> -->
+          <img src="https://placeimg.com/150/150/tech">
+          <!-- </div> -->
         </div>
-        <div class="col-md-6 order-md-2">
+        <!-- </div>
+        </div> -->
+        <div class="col">
+          <!-- <div class="col-md-6 order-md-2"> -->
           <div class="row">
             <div class="col-md-2 image-container">
               <div class="thumbnail" style="border:lightgoldenrodyellow">
@@ -237,9 +250,32 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="cardsection cardsectionbackground">
-      <div class="row m-4 p-3">
+      <!--  </section>
+       <section class="cardsection cardsectionbackground">mb-4 m-4 p-3 py-1 mx-3 my-1 col-md-6 col-sm-12 <div class="row">-->
+      <div class="row p-5 card">
+        <div class="col-md-4 col-sm-12 d-flex flex-column">
+          <div class="row">
+            <div class="col">
+              <h4>left Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 d-flex flex-column">
+          <div class="row">
+            <div class="col">
+              <h4>center row Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 d-flex flex-column">
+          <div class="row">
+            <div class="col">
+              <h4>right Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row m-4 p-3">
         <div class="col-md-4 p-2 order-md-2">
           <div class="left-card">
             <div class="card-body cardbodyfont card text-center py-1 mx-3 my-1">
@@ -274,22 +310,49 @@
             </div>
           </div>
         </div>
+      </div> -->
+      <div class="col-sm-6 order-2">
+        <div class="cardbodyfont card text-center">
+          <p><br>This is a LEFT CARD with supporting text below as a natural lead-in to additional content.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6 order-1">
+        <div class="cardbodyfont card centercard text-center">
+          <div class="icons">
+            <iconify-icon data-icon="mdi-shield-check"></iconify-icon>
+            <span class="iconify icon:mdi-shield-check icon-inline:false"></span>
+            <iconify-icon data-icon="mdi-shield-check"></iconify-icon>
+          </div>
+          <br>
+          <p>"This is CENTER CARD
+            in to add additional content. Please feel free to add."</p>
+          <p>Hello<br>This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 order-3">
+        <div class="cardbodyfont card text-center">
+          <p><br>This is a RIGHT CARD with supporting text below as a natural lead-in to additional content.</p>
+          <p>Hello<br>This content is a little bit longer.</p>
+        </div>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="container-fluid footercolor">
-      <div class="row navhdrcolor">
+    <div class="row p-5 navhdrcolor d-flex">
+      <div class="container-fluid">
+        <!-- <div class="row col-lg-8  col-md-6 col-sm-12 d-flex flex-column navhdrcolor"> -->
         <div class="col-6 m-4 p-3">
           <h4> Text Over Image</h4>
           <a>Lorem ipsum dolor sit amet consectetur adipisicing elit...
           </a>
         </div>
       </div>
-      <div class="row p-3 d-flex justify-content-center text-align-center">
-        <div class="col-sm-6">
-          <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-        </div>
+    </div>
+    <div class="row col-lg-8 col-md-6 col-sm-12 d-flex flex-column footercolor">
+      <!-- p-3 d-flex justify-content-center text-align-center -->
+      <div class="col-sm-6 ">
+        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
       </div>
     </div>
   </footer>
