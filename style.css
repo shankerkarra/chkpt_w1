@@ -34,12 +34,14 @@ main {
   background-color: rgb(3, 128, 3) !important;
 }
 
+/*
 .logo{
     font-size: medium;
-   /* width: 50%;
-  height:20px;  */
+    width: 50%;
+  height:20px; 
   content: url('https://api.iconify.design/mdi:google-podcast.svg'); 
 }
+ */
 
 .main1stimg{
   background: url('https://image.ibb.co/ckA7ka/mr_marbles.png');
@@ -68,6 +70,7 @@ main {
 
 .thumbnail {
   position: relative; 
+  height: 20px;
  /* background: url('https://api.iconify.design/mdi-shield-check.svg') ;   vertical-align: -0.125em; */
 }
 
@@ -91,6 +94,13 @@ main {
     border-radius:9px;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
     max-height: 200%;
+        margin: 0 auto; /* Added */
+        /* float:inline-end; Added */
+        margin-bottom: 10px; /* Added */
+ 
 }
 
-  
+.content{
+   height: 80vh; 
+  /* .row { height: 50vh; } */
+}
