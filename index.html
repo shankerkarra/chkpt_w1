@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<!-- <style>
+<style>
   body.debug .container,
   body.debug .container-fluid {
     outline: 2px double blue;
@@ -35,7 +35,7 @@
     outline: 2px dotted forestgreen;
     outline-offset: -3px;
   }
-</style> -->
+</style>
 
 <body class="gutter">
   <!-- Optional JavaScript -->
@@ -77,7 +77,7 @@
             <input type="text" class="form-group" id="Phone" placeholder="Phone">
             <span class="input-group-addon"> </span>
             <input type="text" class="form-group" id="Ext" placeholder="Ext" style="width: 80px">
-            <input type="text" class="form-group" id="Message" placeholder="Message" style="width: 200px">
+            <textarea class="form-group" placeholder="Message" id="floatingTextarea"></textarea>
             <input type="checkbox" class="custom-control-input" id="customCheck1">
             <label class="custom-control-label mx-4" for="check1">By checking this box, I agree to the Lorem</label>
             <br>
@@ -129,50 +129,113 @@
           </div>
         </div>
       </div>
-    </div>
-    <!--  NEED A COLUMN OVERLAPPING WITH THE BEOW ROW -->
+      <!-- Overlapping col Text starts here  -->
+      <div class="col-6 col-sm-6 d-flex">
+        <div class="container bg-white">
+          <div class="row">
+            <div class="col-md-4 mt-5">
+              <div class="virtualcard">
+                <div class="card-footer text-muted">
+                  <a href="mailto:test@test.com"><i class="<i class=" fa fa-envelope" aria-hidden="true">Envelope</i>
+                    <i class="fas fa-envelope">
+                      <tab></tab> Env
+                    </i></a>
+                  <br>
+                  <a href="tel:+123456789"><i class="fas fa-phone">
+                      <tab></tab> Phone
+                    </i></a>
+                  <br>
+                  <a href="mailto:test@test.com"><i class="fas fa-envelope">
+                      <tab></tab> Env
+                    </i></a>
+                  <br>
+                  <a href="tel:+123456789"><i class="fas fa-phone">
+                      <tab></tab> Phone
+                    </i></a>
+                  <br>
+                  <a href=""><i class="fas fa-map">
+                      <tab></tab> Map
+                    </i></a>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- OverlappingCol Text Ends Here -->
 
+
+    </div>
+    <!--  NEED A COLUMN OVERLAPPING WITH THE BELOW ROW -->
     <!-- Adding now for Image Starts here -->
-    <div class="row pt-5 bg-white d-flex justify-align-center text-center order-1">
-      <div class="col-6 col-sm-6">
+    <div class="row p-2 bg-white d-flex justify-align-center text-center order-1">
+      <div class="col-4 col-md-6 order-1 order-md-1 width:30px">
         <div class="card-img">
-          <img src="https://placeimg.com/150/150/tech" alt="">
+          <img src="https://placeimg.com/200/350/tech" alt="">
         </div>
       </div>
-      <div class="col-6 col-sm-6 d-flex flex-column ">
+      <div class="col-8 col-md-6 order-2 order-md-2">
+        <!-- test code for image starts-->
+        <div class="row">
+          <div class="col-3 image-container">
+            <div class="thumbnail" style="border:lightgoldenrodyellow">
+              <!-- <div class="col-6 "> -->
+              <iconify-icon data-icon="mdi-shield-check"></iconify-icon>
+              <span class="iconify icon:mdi-shield-check icon-inline:false"></span>
+              <!-- <img src="https://api.iconify.design/mdi:google-podcast.svg" style="height:20px; margin-left:-15px;" /> -->
+            </div>
+          </div>
+          <div class="col-9">
+            <h4> Karra Breweries</h4>
+          </div>
+          <!-- <div class="col-10">
+            <h3>this Lorem ipsum dolor sit amet.</h3>
+          </div> -->
+        </div>
+        <!-- test code for image ends -->
         <div class="row">
           <div class="col">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <h5>this Lorem ipsum dolor sit amet.</h5>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
-          </div>
+        <br>
+        <div class="text-right">
+          <button class="btn btn-success w-25" type="submit">More</button>
         </div>
       </div>
     </div>
     </div>
+    </div>
+    </div>
+    </div>
+    <!-- Below code commented for testing -->
     <!--  Adding for Image Ends Here -->
   </section>
   <!-- Need to make a Card and overlap starts -->
@@ -207,7 +270,7 @@
                     class="font">
             </div>
             <p>"This is CENTER CARD
-              in to add additional content. Please feel free.</p>
+              in to add additional content. Please feel free to add."</p>
             <p><i class="fa fa-align-center" aria-hidden="true"></i>Hello<br>This content is a little bit longer.</p>
           </div>
         </div>
