@@ -110,3 +110,8 @@ main {
    height: 80vh; 
   /* .row { height: 50vh; } */
 }
+.resizeimg
+    {
+       max-height:100%;
+        max-width: 100%;
+    }
