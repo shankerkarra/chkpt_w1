@@ -14,9 +14,6 @@ main {
 
 .cardsectionbackground{
   background-color: rgb(31, 41, 31) !important;
-   /* display: flex;
- flex-direction: column;
-   width: 100%; */
 }
 
 .font{
@@ -37,14 +34,6 @@ main {
 .form-group{
  width:2px;
 }
-/*
-.logo{
-    font-size: medium;
-    width: 50%;
-  height:20px; 
-  content: url('https://api.iconify.design/mdi:google-podcast.svg'); 
-}
- */
 
 .main1stimg{
   background: url('./Images/breweries.jpg');
@@ -75,20 +64,12 @@ main {
 .thumbnail {
   position: relative; 
   height: 20px;
- /* background: url('https://api.iconify.design/mdi-shield-check.svg') ;   vertical-align: -0.125em; */
-}
+ }
 
 .image-container{
   text-align:right;
   position: relative; 
 }
-
-/* .caption {
-  position: absolute;
-  top: 45%;
-  left: 30;
-  width: 100%;
-} */
 
 .virtualcard{
     background-color: #FFFFFF;
@@ -101,13 +82,10 @@ main {
     margin: 0 auto; 
          float:inline-end; 
         margin-bottom: 10px;  
- 
-}
-
+ }
 .content{
    height: 80vh; 
-  /* .row { height: 50vh; } */
-}
+ }
 .resizeimg
     {
        max-height:100%;
